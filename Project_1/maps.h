@@ -86,7 +86,7 @@ station::station( int n, int x1, int y1, int x2, int y2, station* first)
             {
                 setfillstyle(1, WHITE);
                 bar(0, 0, w, 125);
-                outtextxy(w/2, 75, "ENTER NAME");
+                outtextxy(w/2, 75, "ENTER NAME OF STATION");
                 char ch;
                 ch=getch();
                 int i=0;
@@ -112,6 +112,8 @@ station::station( int n, int x1, int y1, int x2, int y2, station* first)
                     }
                     ch=getch();
                 }
+                setfillstyle(1, WHITE);
+                bar(0, h-125, w-400, h);
 				//cout << "\n" << 3 << endl;
                 y = m*x + c;
 
@@ -172,7 +174,7 @@ station::station( int n, int x1, int y1, int x2, int y2, station* first)
             {
                 setfillstyle(1, WHITE);
                 bar(0, 0, w, 125);
-                outtextxy(w/2, 75, "ENTER NAME");
+                outtextxy(w/2, 75, "ENTER NAME OF STATION");
                 char ch;
                 ch=getch();
                 int i=0;
@@ -198,6 +200,8 @@ station::station( int n, int x1, int y1, int x2, int y2, station* first)
                     }
                     ch=getch();
                 }
+                setfillstyle(1, WHITE);
+                bar(0, h-125, w-400, h);
 
                 x = x1;
 
@@ -249,7 +253,7 @@ station::station(int x1, int y1)
     y = y1;
     setfillstyle(1, WHITE);
     bar(0, 0, w, 125);
-    outtextxy(w/2, 75, "ENTER NAME");
+    outtextxy(w/2, 75, "ENTER NAME OF STATION");
     char ch;
     ch=getch();
     int i=0;
@@ -275,6 +279,8 @@ station::station(int x1, int y1)
         }
         ch=getch();
     }
+    setfillstyle(1, WHITE);
+    bar(0, h-125, w-400, h);
 	next.node = NULL;
 	prev.node = NULL;
 
@@ -300,7 +306,7 @@ station::station(int x1, int y1, station *first)
 	inter = TRUE;
 	setfillstyle(1, WHITE);
     bar(0, 0, w, 125);
-    outtextxy(w/2, 75, "ENTER NAME");
+    outtextxy(w/2, 75, "ENTER NAME OF STATION");
     char ch;
     ch=getch();
     int i=0;
@@ -326,6 +332,8 @@ station::station(int x1, int y1, station *first)
         }
         ch=getch();
     }
+    setfillstyle(1, WHITE);
+    bar(0, h-125, w-400, h);
 	next.node = NULL;
 	prev.node = NULL;
 
@@ -653,6 +661,8 @@ lin::lin (int z)
         }
         ch=getch();
     }
+    setfillstyle(1, WHITE);
+    bar(0, h-125, w-400, h);
     col=atoi(c1);
     num = z;
     if ( y1 == y2 )
@@ -797,6 +807,8 @@ void lin::add_line(lin *fline)
 				fillpoly(5, poly1);
 				setcolor(BLACK);
 				//outtextxy(w - 200, h - 75, "Exit");
+                setfillstyle(1, WHITE);
+                bar(0, h-125, w-400, h);
 				outtextxy(w / 2, 50, "Do You Want To Add Intersecting Station?");
 				outtextxy(w / 4, h - 75, "YES");
 				outtextxy(3 * w / 4, h - 75, "NO");
@@ -909,9 +921,25 @@ void lin::delete_line(lin* &fline)
 		delete temp;
 	}
 
+    /*else if(b==1 && d==1)
+    {
+        temp=fline;
+        if(fline->next.node!=NULL)
+        {
+            fline=fline->next.node;
+            fline->prev.node=NULL;
+        }
+        else
+            fline=NULL;
+        temp->next.node=NULL;
+        delete temp;
+    }*/
+
 	else
 	{
 		settextjustify(CENTER_TEXT, VCENTER_TEXT);
+        setfillstyle(1, WHITE);
+        bar(0, h-125, w-400, h);
 		outtextxy(w / 2, 50, "No Line Detected Or First Line Detected");
 		outtextxy(w / 2, h - 50, "Press Any Key to Continue");
 		while(!kbhit()){}
