@@ -1,0 +1,17 @@
+P1--> Baiyappanahalli;
+P2-->Swami Vivekananda Road;
+P3-->Indiranagar;
+P4-->Halasuru;
+P5-->Trinity;
+P6-->Mahatma Gandhi Road;
+P7-->Cubbon Park;
+P8-->Vidhana Soudha;
+P9-->Sir M. Visveshwaraya;
+P10-->Majestic;
+P11-->City Railway Station;
+P12-->Magadi Road;
+P13-->Hosahalli;
+P14-->Vijayanagar;
+P15-->Attiguppe;
+P16-->Deepanjali Nagar;
+P17-->Mysore Road;

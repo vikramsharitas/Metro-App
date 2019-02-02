@@ -1,0 +1,18 @@
+G1-->Yeshwanthpur;
+G2-->Sandal Soap Factory;
+G3-->Mahalakshmi;
+G4-->Rajajinagar;
+G5-->Kuvempu Road;
+G6-->Srirampura;
+G7-->Sampige Road;
+G8-->Majestic;
+G9-->Chickpet;
+G10-->Krishna Rajendra Market;
+G11-->National College;
+G12-->Lalbagh;
+G13-->South end Circle;
+G14-->Jayanagar;
+G15-->Rashtreeya Vidyalaya Road;
+G16-->Banashankari;
+G17-->Jayaprakash Nagar;
+G18-->Yelachenahalli;
