@@ -1,26 +1,225 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (bgi.vcxproj, Project_1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  2.cpp
+c:\users\vikram\documents\github\project_1\client\class.h(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(64): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(74): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  bgiout.cxx
+  dibutil.cxx
+  drawing.cxx
+c:\users\vikram\documents\github\project_1\client\drawing.cxx(819): warning C4101: 'tries': unreferenced local variable
+c:\users\vikram\documents\github\project_1\client\drawing.cxx(859): warning C4101: 'answer': unreferenced local variable
+c:\users\vikram\documents\github\project_1\client\drawing.cxx(1110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+  file.cxx
+  fill.cpp
+c:\users\vikram\documents\github\project_1\client\class.h(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(64): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(74): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
   finalmetro.cpp
-c:\users\vikram\desktop\client\class.h(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\vikram\documents\github\project_1\client\class.h(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
-c:\users\vikram\desktop\client\class.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\vikram\documents\github\project_1\client\class.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
-c:\users\vikram\desktop\client\class.h(64): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\vikram\desktop\client\class.h(74): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\vikram\desktop\client\class.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\vikram\documents\github\project_1\client\class.h(64): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(74): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
-c:\users\vikram\desktop\client\class.h(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\vikram\documents\github\project_1\client\class.h(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
-c:\users\vikram\desktop\client\finalmetro.cpp(33): warning C4101: 'str1': unreferenced local variable
-c:\users\vikram\desktop\client\finalmetro.cpp(136): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\vikram\documents\github\project_1\client\finalmetro.cpp(33): warning C4101: 'str1': unreferenced local variable
+c:\users\vikram\documents\github\project_1\client\finalmetro.cpp(136): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
-c:\users\vikram\desktop\client\finalmetro.cpp(137): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\vikram\documents\github\project_1\client\finalmetro.cpp(137): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
-c:\users\vikram\desktop\client\finalmetro.cpp(194): warning C4101: 'str1': unreferenced local variable
-c:\users\vikram\desktop\client\finalmetro.cpp(209): warning C4101: 'fff': unreferenced local variable
-c:\users\vikram\desktop\client\finalmetro.cpp(255): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\vikram\documents\github\project_1\client\finalmetro.cpp(194): warning C4101: 'str1': unreferenced local variable
+c:\users\vikram\documents\github\project_1\client\finalmetro.cpp(209): warning C4101: 'fff': unreferenced local variable
+c:\users\vikram\documents\github\project_1\client\finalmetro.cpp(255): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
-c:\users\vikram\desktop\client\finalmetro.cpp(291): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\vikram\documents\github\project_1\client\finalmetro.cpp(291): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
-c:\users\vikram\desktop\client\finalmetro.cpp(292): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\vikram\documents\github\project_1\client\finalmetro.cpp(292): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
-  bgi.vcxproj -> C:\Users\Vikram\Desktop\Client\Debug\Client.exe
+  hash.cpp
+c:\users\vikram\documents\github\project_1\client\class.h(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(64): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(74): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\hash.cpp(163): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\hash.cpp(172): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\vikram\documents\github\project_1\client\hash.cpp(173): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\hash.cpp(174): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\hash.cpp(176): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  map_edit.cpp
+c:\users\vikram\documents\github\project_1\client\maps.h(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\maps.h(118): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(508): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(509): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(510): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(511): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(512): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(513): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(514): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(515): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(516): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(517): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(687): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(688): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(689): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(690): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(691): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(692): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(693): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(694): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(695): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(696): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(778): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(779): warning C4244: '/=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(780): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(781): warning C4244: '/=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\maps.h(898): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\maps.h(899): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\class.h(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(64): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(74): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(916): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(43): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(44): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(158): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(159): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(387): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(388): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(513): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(514): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(661): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(662): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(748): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(749): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(842): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(843): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(916): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(950): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(951): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(989): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(990): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(1052): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(1053): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(1092): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(1093): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(1130): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(640): note: see declaration of '_itoa'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(1131): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\vikram\documents\github\project_1\client\map_edit.cpp(255): warning C4102: 'mill': unreferenced label
+  misc.cxx
+c:\users\vikram\documents\github\project_1\client\misc.cxx(595): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
+c:\users\vikram\documents\github\project_1\client\misc.cxx(596): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
+c:\users\vikram\documents\github\project_1\client\misc.cxx(597): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
+c:\users\vikram\documents\github\project_1\client\misc.cxx(598): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
+c:\users\vikram\documents\github\project_1\client\misc.cxx(599): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
+  mouse.cxx
+  palette.cxx
+  main.cxx
+c:\users\vikram\documents\github\project_1\client\main.cxx(189): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\main.cxx(192): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\main.cxx(195): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\main.cxx(194): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\main.cxx(333): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+c:\users\vikram\documents\github\project_1\client\main.cxx(367): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\main.cxx(388): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vikram\documents\github\project_1\client\main.cxx(397): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  rech.cpp
+c:\users\vikram\documents\github\project_1\client\class.h(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(64): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(74): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\rech.cpp(16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  text.cxx
+c:\users\vikram\documents\github\project_1\client\text.cxx(348): warning C4018: '<': signed/unsigned mismatch
+  userfpage.cpp
+c:\users\vikram\documents\github\project_1\client\class.h(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(64): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(74): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vikram\documents\github\project_1\client\class.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\class.h(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\vikram\documents\github\project_1\client\userfpage.cpp(21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  winbgi.cxx
+c:\users\vikram\documents\github\project_1\client\winbgi.cxx(134): warning C4101: 'actual_color': unreferenced local variable
+c:\users\vikram\documents\github\project_1\client\winbgi.cxx(133): warning C4101: 'bgi_color': unreferenced local variable
+c:\users\vikram\documents\github\project_1\client\winbgi.cxx(494): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  winthread.cxx
+c:\users\vikram\documents\github\project_1\client\winthread.cxx(320): warning C4101: 'i': unreferenced local variable
+  Generating Code...
+LINK : warning LNK4031: no subsystem specified; CONSOLE assumed
+  bgi.vcxproj -> C:\Users\Vikram\Documents\GitHub\Project_1\Client\Debug\Client.exe
