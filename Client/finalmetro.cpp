@@ -7,59 +7,59 @@ char uname[20],passwd[70],passwd1[70];
 
 void first()
 {
-    begg:
-    closegraph();
-    initwindow(w, h);
-    setbkcolor(WHITE);
-    setcolor(BLACK);
-    cleardevice();
-    int x , y ,btn=0;
-    readimagefile("Penguins.jpg",0,0,1400,700);
-    //initgraph(&gdriver, &gmode, "c:\\tc\\bgi");
-    setcolor(BLACK);
-    settextstyle(4,HORIZ_DIR,5);
-    outtextxy(150,10,"WELCOME TO THE METRO APP");
-    settextstyle(4,HORIZ_DIR,3);
-    setcolor(BLACK);
-    outtextxy(400,80,"DO YOU HAVE A USER ID");
-    setcolor(BLACK);
-    settextstyle(4,HORIZ_DIR,2);
-    rectangle(450,150,520,180);
-    outtextxy(455, 155, "YES");
-    rectangle(600,150,670,180);
-    outtextxy(610, 155, "NO");
-	rectangle(520, h / 2 - 5, 600, h / 2 + 25);
-	outtextxy(525, h / 2, "EXIT");
-    char str1[100];
-    while(1)
-    {
-        while(!ismouseclick(WM_LBUTTONDOWN))
-            delay(0);
-        getmouseclick(WM_LBUTTONDOWN, x, y);
-        if(x>=450 && x<=520 && y>=150 && y<=180)
-            btn=1;
-        if(x>=600&& x<=670 && y>=150 && y<=180)
-            btn=2;
-		if(x>=520&&x<=600&&y<=h/2+5&&y>h/2-25)
-			exit(0);
-        if (btn>0)
-            break;
-    }
-    if (btn==1)
-    {
-        cleardevice();
-        third();
-        goto begg;
-    }
-    else
-    {
-        cleardevice();
-        second();
-        goto begg;
-    }
+	while (1)
+	{
+		closegraph();
+		initwindow(w, h);
+		setbkcolor(WHITE);
+		setcolor(BLACK);
+		cleardevice();
+		int x, y, btn = 0;
+		readimagefile("Penguins.jpg", 0, 0, 1400, 700);
+		//initgraph(&gdriver, &gmode, "c:\\tc\\bgi");
+		setcolor(BLACK);
+		settextstyle(4, HORIZ_DIR, 5);
+		outtextxy(150, 10, "WELCOME TO THE METRO APP");
+		settextstyle(4, HORIZ_DIR, 3);
+		setcolor(BLACK);
+		outtextxy(400, 80, "DO YOU HAVE A USER ID");
+		setcolor(BLACK);
+		settextstyle(4, HORIZ_DIR, 2);
+		rectangle(450, 150, 520, 180);
+		outtextxy(455, 155, "YES");
+		rectangle(600, 150, 670, 180);
+		outtextxy(610, 155, "NO");
+		rectangle(520, h / 2 - 5, 600, h / 2 + 25);
+		outtextxy(525, h / 2, "EXIT");
+		char str1[100];
+		while (1)
+		{
+			while (!ismouseclick(WM_LBUTTONDOWN))
+				delay(0);
+			getmouseclick(WM_LBUTTONDOWN, x, y);
+			if (x >= 450 && x <= 520 && y >= 150 && y <= 180)
+				btn = 1;
+			if (x >= 600 && x <= 670 && y >= 150 && y <= 180)
+				btn = 2;
+			if (x >= 520 && x <= 600 && y <= h / 2 + 5 && y > h / 2 - 25)
+				exit(0);
+			if (btn > 0)
+				break;
+		}
+		if (btn == 1)
+		{
+			cleardevice();
+			signin();
+		}
+		else
+		{
+			cleardevice();
+			signup();
+		}
+	}
 }
 
-void second()
+void signup()
 {
     beg:
     closegraph();
@@ -125,7 +125,7 @@ void second()
                     outtextxy(700,600,"Sorry! User Already Exists");
                     getch();
                     cleardevice();
-                    goto beg;
+					return;
                     i++;
                 }
             }
@@ -147,14 +147,14 @@ void second()
             outtextxy(700, 600, "Passwords do not match!");
             getch();
             cleardevice();
-            goto beg;
+			return;
         }
     }
     else
         return;
  }
 
-void third()
+void signin()
 {
     begi:
     closegraph();
@@ -232,9 +232,9 @@ void third()
             settextjustify(1, 1);
             outtextxy(w/2, 3*h/4, "Invalid username or password");
             settextjustify(LEFT_TEXT, 1);
-            getch();
+            while(!kbhit()){}
             cleardevice();
-            goto begi;
+			return;
         }
     }
     else
