@@ -1,4 +1,7 @@
-"# Project" 
-"# Project_1" 
+# Metro App
 
-Allows users to modify a map, get cost to travel between stations on the same line and get to know where the trains are at any particular time
+This app allows one to register/login, add money, see fares between stations and also book tickets between stations.
+
+Later, functionality to add and remove tracks and stations was added.
+
+This app was created for the purpose of learning windows and graphics in C++.
